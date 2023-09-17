@@ -48,15 +48,12 @@ WrapperPoints.addEventListener('click', (event) => {
             Points[i].classList.remove('back-white')
             Points[i].classList.add('ring')
             Texts[i].classList.remove('Transition-left')
-            Texts[i].classList.remove('hidden')
-            Picture[i].classList.remove('hidden')
-            Picture[i].classList.remove('Transition-left')
+            Picture[i].classList.remove('Transition-right')
         } else {
             Points[i].classList.remove('ring')
             Texts[i].classList.add('Transition-left')
-            Picture[i].classList.add('Transition-left')
-            //Texts[i].classList.add('hidden')
-            Picture[i].classList.add('hidden')
+            Picture[i].classList.add('Transition-right')
+            //Picture[i].classList.add('hidden')
         }
     }
 })
